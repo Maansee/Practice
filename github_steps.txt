@@ -1,0 +1,114 @@
+https://www.youtube.com/watch?v=gwWKnnCMQ5c
+
+https://mastek.udemy.com/course/git-version-control/
+
+create folder, get git here
+
+->git config --global user.name Maansee
+
+->git config --global email maansee@yodaplus.com
+
+To check if it has been set: git config --global user.name, git config --global user.email:
+this should display correct details.
+
+->code. 
+this opens vscode 
+
+-> git init
+
+-> git status 
+
+If untracked, use 
+
+->git add filename
+
+-> git commit --initial commit
+
+touch command is used with bank files: touch contact.html(an example)
+
+ to add multiple files use command: git add -A
+
+simple way with msg: git commit-m "msg in here"
+
+checkout: to match with the last commit: git checkout filename
+
+git checkout -f: to use for multiple files to match with last commit
+
+-> git log
+ author and date 
+
+-> git log -p -5
+this command will show the last 5 commits
+
+-> git diff
+working tree will be compared with staging area
+
+-> git diff --staged
+compare staging area with last commit
+
+ctrl+c==^c ==cancel
+
+->git commit -a -m "skipped staging ..."
+direct commit
+
+->ls
+list files
+
+->clear
+cls
+
+-> git rm
+removes from working area and staging directory
+
+->git rm --cached filename
+file will be removed only from staging area
+
+-> rm -rf git
+deletes the git repository
+
+->git clone repository_name
+clones the repository to github
+
+
+Stack-overflow:
+After the GitHub update 01.10.20 you should use main instead of master.
+
+Do it like these way...
+
+Create a repository on GitHub
+Delete existing .git file on your local directory
+Go to local project directory and type git init
+git add .
+git commit -m"My First Commmit"
+Now check your branch name it will be master in your local project
+git remote add origin <remote repository URL past here from the github repository> then type git remote -v
+git push -f origin master
+Now check the github repository you will see two branch 1. main 2. master
+In your local repository create new branch and the branch name will be main
+git checkout main
+git merge master
+git pull origin main
+git push -f origin main
+
+
+My steps:
+
+
+git init
+git add .
+git remote add origin https://github.com/Maansee/StartupWebsite.git
+git remote -v
+git push -f origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
