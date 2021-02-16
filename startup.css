@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header{
@@ -135,7 +136,7 @@
     cursor: pointer;
 }
 
-.service-box:hover{
+.service-box:hover, .active-service{
     background: #6900d1;
     border-radius: 5px;
     color: #fff !important;
@@ -143,5 +144,9 @@
 }
 
 .service-box:hover p{
+    color: #fff !important;
+}
+
+.active-service p{
     color: #fff !important;
 }
