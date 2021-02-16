@@ -56,3 +56,33 @@
     font-weight: 600;
     font-size: 50px;
 }
+
+.banner img{
+    max-height: 500px;
+}
+
+.banner a{
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    background: #6900d1;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.banner a:hover{
+    color: #fff;
+}
+
+.express-btn{
+    background: #fff !important;
+    color: #000 !important;
+    margin-right: 5px;
+}
