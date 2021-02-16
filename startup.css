@@ -124,7 +124,7 @@
     font-weight: bold;
 }
 
-,.service-box p{
+.service-box p{
     font-size: 14px;
     color: #808080;
 }
@@ -149,4 +149,21 @@
 
 .active-service p{
     color: #fff !important;
+}
+
+/* -----features----- */
+
+.feature{   
+    margin: 200px 0;
+}
+
+.feature img{
+    max-height: 77%;
+    cursor: pointer;
+}
+
+.feature h2{
+    margin-top: 100px;
+    font-weight: bold;
+    line-height: 50px;
 }
