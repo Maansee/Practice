@@ -198,3 +198,21 @@
 .explore a{
     margin-bottom: 50px;
 }
+
+.review{
+    margin: 100px 0;
+}
+
+.carousel-item img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.carousel-item{
+    height: 430px;
+    text-align: center;
+}
+
+.carousel-caption{
+    z-index: -1 !important;
+}
