@@ -53,7 +53,7 @@
 
 .banner h1{
     margin: 80px 0 50px;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 50px;
 }
 
@@ -85,4 +85,44 @@
     background: #fff !important;
     color: #000 !important;
     margin-right: 5px;
+}
+
+/* ----------service---------- */
+
+.service{
+    margin: 75px 0;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.subtitle{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 15px;
+}
+
+.service-box{
+    padding: 0 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.service-box img{
+    width: 60px;
+    margin-bottom: 45px;
+    margin-top: 65px;
+}
+
+.service-box h6{
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+,.service-box p{
+    font-size: 14px;
+    color: #777;
 }
